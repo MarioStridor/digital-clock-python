@@ -2,8 +2,7 @@ import tkinter as tk        # tkinter - gui library for fun stuff
 from time import strftime   # strftime - can modify time date as needed
 
 root = tk.Tk()
-root.title = "Digital Clock"
-
+root.title("Digital Clock")
 
 def time():
     string = strftime("%I:%M:%S %p \n %D")
@@ -17,3 +16,4 @@ label.pack(anchor='center')
 
 time()
 root.mainloop()
+
